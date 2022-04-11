@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이핑게임!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="game">
+      <header class="game__header">
+        <span>타이핑 게임</span>
+      </header>
+      <form class="game-frm">
+        <div class="game-frm__show hidden"></div>
+        <div class="game-frm__quesetion">시작 버튼을 눌러주세요.</div>
+        <input class="game-frm__input" type="text" />
+      </form>
+      <footer class="game__footer">
+        <div class="game__status">
+          <div class="game__timer">남은시간: 10초</div>
+          <div class="game__score">점수: 0점</div>
+        </div>
+        <button class="game__startBtn">시작하기</button>
+      </footer>
+    </div>
+  </body>
+</html>

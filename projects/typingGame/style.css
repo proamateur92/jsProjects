@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f1f2fa;
+  font-family: 'Dongle', sans-serif;
+  font-weight: 700;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+}
+
+.game {
+  width: 350px;
+  border-radius: 15px;
+  background-color: #dddff1;
+}
+
+.game-frm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8fdff;
+  height: 230px;
+  font-size: 38px;
+  color: #9698ab;
+}
+
+.game-frm__show {
+  position: absolute;
+  margin: 10px;
+  left: 0;
+  top: 0;
+  font-size: 22px;
+}
+
+.game-frm__show.hidden {
+  visibility: hidden;
+}
+
+.game-frm__input {
+  height: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  color: #9698ab;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 20px;
+  background-color: #f2f7f8;
+}
+
+.game__header,
+.game__footer {
+  height: 120px;
+  color: #f8fdff;
+}
+
+.game__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 42px;
+}
+
+.game__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.game__status {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.game__startBtn {
+  padding: 5px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 15px;
+  color: #9698ab;
+  background-color: #f8fdff;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.game__startBtn:hover {
+  color: #f8f8fa;
+  background-color: #9698ab;
+}
+
+.game__startBtn.stop {
+  color: #f8f8fa;
+  background-color: #9698ab;
+}
