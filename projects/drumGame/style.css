@@ -26,7 +26,7 @@ body {
   justify-content: center;
   width: 45px;
   height: 45px;
-  transition: all 250ms ease-in-out;
+  transition: all 200ms ease-in-out;
   border: 3px solid black;
   border-radius: 10px;
   font-weight: bolder;
