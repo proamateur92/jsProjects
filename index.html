@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>게임 리스트</title>
+    <style>
+      html,
+      body {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(rgb(240, 91, 91), rgb(65, 65, 251));
+      }
+
+      h2 {
+        margin: 10px 0;
+      }
+
+      .projects-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .projects-container a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .projects-container a:hover {
+        font-size: 30px;
+        color: blanchedalmond;
+      }
+    </style>
   </head>
   <body>
-    <a href="./projects/typingGame/typingGame.html">1. 타이핑 게임</a>
+    <div class="projects-container">
+      <h2>
+        <a href="./projects/typingGame/typingGame.html">1. 타이핑 게임</a>
+      </h2>
+      <h2>
+        <a href="./projects/drumGame/drumGame.html">2. 드럼 게임</a>
+      </h2>
+    </div>
   </body>
 </html>
