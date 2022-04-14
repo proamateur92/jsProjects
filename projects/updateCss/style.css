@@ -39,9 +39,10 @@ highlight {
 }
 
 .cover-container {
-  width: 400px;
-  height: 250px;
-  margin: 20px auto 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
