@@ -4,6 +4,8 @@
 
 ### 1. 타이핑 게임
 
+<br>
+
 ### 2. 드럼 게임
 
 - Audio 객체의 사용법
@@ -26,6 +28,7 @@
 - 문제점
   <br>
   - js파일 line 16: 키를 연속적으로 빠르게 입력하면 transition의 지연 시간이 따라잡지 못해 transitionend 이벤트가 실행되지 않는 현상 발생
+    <br>
 
 ### 3. 시계 만들기
 
@@ -38,3 +41,23 @@
 - 문제점
   <br>
   - Date객체의 시간을 받아 transform의 각도를 계산하기 때문에 450도(한바퀴 도는 시점)에서 90도(기준)가 될 때 시계 방향으로 한바퀴를 돌던 초침이 반시계 방향으로 되돌아 가는 현상. (시침, 분침 동일)
+    <br>
+
+### 4. JS로 CSS 값 조작하기
+
+- CSS Property
+  <br>
+
+  - filter: blur(Xpx); 뿌옇기의 정도
+    <br>
+
+- JS
+  <br>
+
+  - document.querySelectorAll(''); Node List 배열 반환
+    <br>
+
+  - x || ''; x의 값이 false이면 ''를 반환
+    <br>
+
+  - document.documentElement.style.setProperty(--key, value); --key : value 값으로 CSS property 지정

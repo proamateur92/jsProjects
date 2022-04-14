@@ -1,0 +1,54 @@
+:root {
+  --color: black;
+  --space: 10px;
+  --blur: 10px;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: darkslateblue;
+  margin: 0;
+}
+
+.adjust-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.adjust-text {
+  width: 500px;
+  margin: 30px 0 50px 0;
+  text-align: center;
+}
+
+span {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+highlight {
+  color: var(--color);
+}
+
+.cover-container {
+  width: 400px;
+  height: 250px;
+  margin: 20px auto 0 auto;
+}
+
+img {
+  padding: var(--space);
+  background: var(--color);
+  filter: blur(var(--blur));
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+}

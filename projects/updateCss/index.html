@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" defer></script>
+    <title>css 조작 페이지</title>
+  </head>
+  <body>
+    <div class="adjust-container">
+      <div class="adjust-text">
+        <span><highlight>아래 값</highlight>을 <highlight>조절</highlight>해보세요</span>
+      </div>
+      <div class="adjust-contents">
+        <label for="space">여백</label>
+        <input type="range" name="space" min="10" max="200" value="10" data-sizing="px" />
+        <label for="blur">뿌옇게</label>
+        <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px" />
+        <label for="color">기본 색</label>
+        <input type="color" name="color" />
+      </div>
+    </div>
+
+    <div class="cover-container">
+      <img class="cover" src="./image/cover.jpg" />
+    </div>
+  </body>
+</html>
