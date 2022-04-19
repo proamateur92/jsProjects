@@ -86,6 +86,16 @@
 <br>
 
 - 4. reduce
-     앞에 언급한 메서드들과는 다르게 reduce메서드는 연산을 한다. 콜백 함수는 두개의 파라미터를 받고 첫번째 파라미터는 연산의 수행 결과가 반환되어지고, 두번째 파라미터는 배열의 요소를 받아 온다. 또한 Array((result, element) => {}, initialValue);의 형태로 초기값(initialValue)을 받는다. 초기값은 연산 결과를 받을 result에 처음 할당 되는 값이 된다.
+     앞에 언급한 메서드들과는 다르게 reduce메서드는 연산을 한다. 콜백 함수는 두개의 파라미터를 받고 첫번째 파라미터는 연산의 수행 결과가 반환되어지고, 두번째 파라미터는 배열의 요소를 받아 온다.
+
+     <br>
+
+     ```
+     Array((result, element) => {
+       result += element;
+     }, initialValue);
+     ```
+
+     또한 위의 형태로 초기값(initialValue)을 받는다. 초기값은 연산 결과를 받을 result에 처음 할당되어진다.
 
 <br>
