@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: bisque;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.poke-box {
+  display: inline-block;
+  text-align: center;
+  /* margin: 10px; */
+}
+
+.poke-box p {
+  color: white;
+  font-weight: bold;
+}
